@@ -1,3 +1,9 @@
+import Carousel from "../components/carousel";
+
 export default function Home() {
-  return <h1 className="text-3xl">Hello</h1>;
+  return (
+    <>
+      <Carousel />
+    </>
+  );
 }
